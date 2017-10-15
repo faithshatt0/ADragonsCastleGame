@@ -1,25 +1,31 @@
 # ADragonsCastleGame
 
-A Dragon’s Castle
+**A Dragon’s Castle**
 
 Faith Shatto, Raju Kumar, Juhi Park 
 
 https://youtu.be/F7fqUVL70js
 
-*DISCLAIMER: ORIGINAL PROJECT CREATION WAS NOT ORGANIZED THROUGH GITHUB*
+**DISCLAIMER:** ORIGINAL PROJECT CREATION WAS NOT ORGANIZED THROUGH GITHUB*
 
-Our game is a single player user-driven game consisting of an adventurous story line and tasks the user must complete to continue. A player must win two of the challenges we've included in order to progress the main story of adventure. In the end, they must defeat a ferocious fire-breathing dragon that has created chaos and turmoil in the user's town.
+A Dragon's Castle is a single player, user-driven game consisting of an adventurous storyline with multiple tasks the user must complete to continue through the story. A player must win two of the challenges we've included in order to progress through the main story of the adventure. In the end, they must defeat a ferocious fire-breathing dragon that has created chaos and turmoil in the player's town.
 
+**TIC TAC TOE**
 
-	The Bingo class, created by Juhi,  sets up 2-D array in size of 3 by 3 grid with row and cols integer valuables in the type char array, named board.  This game started with the basic ‘Tic Tac Toe’ strategies where two player play and match against each other in a board where they mark in the board with each two different unique symbols and wins whenever they match his/her own unique symbol before their opponent. With random number generator, it was able to obtain functionality where the user can play Tic Tac Toe with computer. The Bingo class has functions to assert player not to reserve a spot that is already been chosen in previous turn. Each time user marks ‘X’ on the Bingo board, it prints out changes immediately to console and same thing for computer when it marks ‘O’ on ingo board. When the board is filled, it tells the user who had won. Later we changed our code for Bingo class so that it can display in the end whether the game player had decoded the game of castle.
-	The Hangman class has the constant int variable named, MaxWrong to limit the maximum trial times that play can guess and to keep track of it. If the variable reaches its limit, the player loses and has to start the game again. Using constant int variable for MaxWrong will allow coder to easily access and change the number of tries later on when further advances in difficulty of levels are needed. Instead of changing the value at several different places, we can change constant integer that functions as global variable just once in the beginning.
-Raju created the hangman game. It has an array with list of words stored in it, that can generate different words using random function. It also displays which char you have entered so far. Every time the players guesses wrong, a different cout prints out. When the player guesses correctly, a default cout prints out.
-Juhi created the header and implementation file for the Bingo class and she used a random number generator in order to obtain functionality where the user can play Tic Tac Toe with computer. This game developed under the idea where the player can play against with the computer and by providing the functionality to generate different bingo board each time the player do it. 
+The Tic Tac Toe/Bingo minigame challenge was created by Juhi. This minigame consists of the basic ‘Tic Tac Toe’ strategies where two players play against each other to ultimately get three of their X's or O's in a row, column, or diagonal pattern. The player plays against the computer that was created with a random number generator to determine its placing on the board. This functionality is altered in our story to make it so the Tic Tac Toe board is actually a lock that is to be "solved" in order for the player to progress. The Tic Tac Toe or "Bingo" class, for short, has its personal functions and tools for its workability. (Text-based + SDL graphics)
 
- Faith created the header and implementation files for the mini games and created the  ending battle scene. The main driver file was organized by Faith along with everyone else’s input. She put together many of the images with photoshop and coded the graphics associated with SDL that are shown all throughout the project. She also structured much of the storyline for the game. 
-One of the difficulties was that working with SDL was confusing and took too much time. Therefore we had to abandon that idea to develop our game totally in SDL. Since graphics is what appeals to most players, all of the group members had agreed to have graphics embedded into the text based game code. We think that it would have brought a much better outcome if it were entirely through SDL. If we could restart the project would be focus more on the graphics and animation.
+**HANGMAN**
 
-To come of this project: We want to include more paths to the story as well as configure the player's avatars to change based on gender. We would also like the graphics to be played all on the same set of surfaces rather than having the graphics pop up separately from the console. 
+The Hangman minigame challenge was created by Raju. Just like regular hangman, the user is provided with a certain number of blanks associated with the number of letters in a mystery word. The user must guess the letters correctly without guessing too many or else they will have run out of guesses. In our game, we changed the way the player "loses" Hangman. Instead of having a man being hung throughout the guessing game, we have a closed scroll that, when the correct word is guessed, will open to reveal where the player's next locaiton must be. If the user reaches their guess limit, the player loses and has to start the game again. (Text-based + SDL graphics)
+
+**MAIN GAMEPLAY**
+Faith organized the game mechanics / main gameplay. The minigame classes were combined to be managed under the main program of the game. The main program consists of all of the game "events" that take place differently based on the user's choices. The transitions based on the user's choices were also managed here along with the functions making up the SDL / game's "utilities". This was implemented along with the storyline and graphics for the game. She also put together the bitmap art for the game and incorporated these scenes into the main program with SDL. Throughout the game the user is given lines of text narrating different parts of the story or giving directions, prompted to "Press enter to continue".
+
+**CHALLENGES**
+The graphics and transitions in the game were probably some of the more difficult tasks. We went back and forth between trying to make animation or images work for the game before our deadline. In the end, we ended up sticking to images to show up whenever the user completed certain tasks in the game and the transitions were optimized to make the game run much more smoothly.
+
+**FUTURE AMBITIONS**
+We want to increase the number of potental story paths by having more decision based events occur. We would also like to have the player choose an avatar at the beginning of the game in order to customize the art that shows up along the journey. Lastly, we would like to implement the game's graphics into most of the game (including the narrating parts) to make the game interface completely made up of SDL graphics.
 
 References
 
