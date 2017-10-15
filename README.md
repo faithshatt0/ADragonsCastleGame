@@ -30,7 +30,8 @@ The graphics and transitions in the game were probably some of the more difficul
 
 We want to increase the number of potental story paths by having more decision based events occur. We would also like to have the player choose an avatar at the beginning of the game in order to customize the art that shows up along the journey. Lastly, we would like to implement the game's graphics into most of the game (including the narrating parts) to make the game interface completely made up of SDL graphics.
 
-References
+**REFERENCES**
+
 
 http://programmersranch.blogspot.com
 
