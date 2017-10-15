@@ -32,10 +32,10 @@ We want to increase the number of potental story paths by having more decision b
 
 References
 
-[1]C. 3), "Programmer's Ranch", Programmersranch.blogspot.com, 2017. [Online]. Available: http://programmersranch.blogspot.com. [Accessed: 07- May- 2017].
+http://programmersranch.blogspot.com
 
-[2]"Stack Overflow", Stackoverflow.com, 2017. [Online]. Available: http://Stackoverflow.com. [Accessed: 09- May- 2017].
+http://Stackoverflow.com
 
-[3]"Lazy Foo' Productions", Lazyfoo.net, 2017. [Online]. Available: http://Lazyfoo.net/tutorials. [Accessed: 08- May- 2017].
+http://Lazyfoo.net/tutorials
 
-[4]"Udemy Online Courses - Learn Anything, On Your Schedule", Udemy, 2017. [Online]. Available: http://udemy.com. [Accessed: 11- May- 2017].
+http://udemy.com
