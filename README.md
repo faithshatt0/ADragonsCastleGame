@@ -6,6 +6,8 @@ Faith Shatto, Raju Kumar, Juhi Park
 
 https://youtu.be/F7fqUVL70js
 
+*DISCLAIMER: ORIGINAL PROJECT CREATION WAS NOT ORGANIZED THROUGH GITHUB*
+
 Our game is a single player user-driven game consisting of an adventurous story line and tasks the user must complete to continue. A player must win two of the challenges we've included in order to progress the main story of adventure. In the end, they must defeat a ferocious fire-breathing dragon that has created chaos and turmoil in the user's town.
 
 
